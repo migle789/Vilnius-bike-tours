@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>	</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="animate.css">
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+     <script src="animatescroll.js-master/animatescroll.js"></script>
+
+</head>
+
+<body>
+
+<header>
+		<nav class="fill">
+		    <ul>
+		      <li><a href="#first_section">About us</a></li>
+			      <li><a href="#second_section">Explore</a></li>
+			      	<li><a href="#third_section">Bike tours</a></li>
+			      <li><a href="#forth_section">Bike rental</a></li>
+		      <li><a href="#footer">Contacts</a></li>
+		    </ul>
+		</nav>
+
+		<nav id="social_nav">
+			<ul>
+				<li><a href="https://www.facebook.com/velovilnius/" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+			</ul>
+		</nav>
+
+		<div id="title">
+			<h1 class="animated zoomInDown">Vilnius bike tours</h1>
+				<a href="#first_section" id="scroll" onclick="$('#first_section').animatescroll();">
+
+					<div class="center-con">   
+    					<div class="round">
+	        				<span></span>
+		       					<span></span>
+		        				<span></span>
+	        				<span></span>
+   					 	</div>
+					</div>
+				</a>
+		</div>
+	</header>
+
+	<section id="first_section">
+		<h2 id="h2">WELCOME TO VILNIUS BY BICYCLE!</h2>
+			<div class="wrapper">
+				<div id="div1">
+					<div class="img">
+						<img src="img/img2.jpg">
+					</div>
+						<h3>WHO WE ARE</h3>
+					<p>Velo-City Vilnius is a small family business making it’s living from bicycle rental and city tours by bicycle in Vilnius and around.
+				</p>
+			</div>
+
+			<div id="div2">
+				<div class="img">
+					<img src="img/img1.jpg">
+				</div>
+					<h3>WHAT WE DO</h3>
+						<p>
+							<ul> 
+								<li>City tour by bicycle</li>
+									<li>Bicycle rental</li>
+										<li>Organisation of excursions by bicycle</li>
+											<li>Sale of used bicycles</li>
+										<li>Bicycle repair</li>
+								<li>Cycling lessons for children and adults</li>
+							</ul>
+						</p>
+			</div>
+
+			<div id="div3">
+				<div class="img">
+					<img src="img/img3.jpg">
+				</div>
+					<h3>WHERE'RE WE AT</h3>
+				<p>Pylimo 31 01309 Vilnius, Lithuania since March, 2016, we’ll welcome you at our new location  (close to the Synagogue) </p>
+			</div>
+		</div>
+	</section>
+
+<section id="second_section">
+		<video autoplay="true" loop controls muted>
+			<source src="img/video.mp4" type="video/mp4">
+				<source src="video.webm" type="video/webm">
+		</video>
+
+		<h1 id="h1">Explore.. Learn.. Discover..</h1>
+</section>
+
+<section id="third_section">
+	<h2>Bike tours</h2>
+
+		<div class="tours">
+			<div id="tours1">
+				<h3>"Welcome to Vilnius" short tour(2-3 hrs)</h3>
+						<p>Price of the Short bike tour: €17 </p>
+							<button id="slide_button2">More</button>
+								<div id="slide2">
+									<p> Our bike tour not only introduces you to the beautiful medieval Old Town enjoyed by countless tourists every day, but also the Vilnius of locals. See the city as it really is with its joys and worries, grandeur and monotony, modernity and parochialism. </p>
+								</div>
+
+		</div>
+			
+			<div id="tours2">
+				<h3>Full day bike tour: All sides of Vilnius(4-6 hrs)</h3>
+					<p>Price of the Full day  bike tour: €22</p>
+						<button id="slide_button">More</button>
+							<div id="slide">
+					<p>This comprehensive bike tour introduces you to the Vilnius of locals. Cycle through the historical Old Town, a modern business district, a charming quarter filled with little wooden houses and a Soviet-era residential area for an unusual, unexpected and unforgettable impression of the city. </p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+</section>
+
+<section id="forth_section">
+	<h2>Bike rental</h2>
+		<div class="wrap">
+			<p class="p1">For your choice in Vilnius there are high quality trekking/hybrid, MTB, CROSS, FAT and CHILD bikes, E-BIKES/PEDELECs 2-seat tandems and waterproof panniers (ORTLIEB), </p> 
+			<p class="p2">  Danish 2-wheel trailers for children (WINTHER), cargo bike trailers (BOB Yak), trailer-bikes, child seats, helmets and other tourist equipment...</p> 
+		<p class="p3">Almost all bikes, trekking, MTB and CROSS, are equipped with front suspension fork and aluminium frame. There are ladies'/unisex and standard trekking bicycles with a transverse bar.</p>
+	</div>
+		<div class="slider">
+			<img id="bike1" src="img/bike1.png" alt="bike1">
+				<img src="img/bike2.png" alt="bike2">
+				<img src="img/bike3.png" alt="bike3">
+			<img src="img/bike4.png" alt="bike4">
+		</div>
+	</div>
+
+</section>
+
+<section>
+
+	<div id="map"></div>
+
+
+		
+</section>
+	<footer id="footer">
+		<form action="form.php" method="POST"  id="form">
+			<input type="text" name="name" placeholder="Your Name" id="name">
+				<input type="text" name="surname" placeholder="Your Surname" id="surname">
+					<input type="text" name="email" placeholder="Your email" id="email">
+				<textarea rows="4" cols="50" name="comment" id="comment" placeholder="Message here"></textarea>
+				<button type="submit" id="button">Send</button>
+			<!-- <input type="submit" name="submit"> -->
+			<h1 id="success">Success</h1>
+			
+		</form>
+		
+		<div class="contacts">
+			<h2>Contacts:</h2>
+				<ul>
+					<li>Adress: Pylimo g. 31 </li>
+						<li>Phone: +37067412123</li>
+							<li>E-mail: info@velovilnius.lt</li>
+						<li>daily 10 am to 8 pm (April 15th - September, 15th) 
+					</li>
+				</ul>
+		</div>
+			<div class="clearfix"></div>
+		<div class="copy">&copy 2017. All rights reserved.</div>
+	</footer>
+
+</script>
+<script src="https://use.fontawesome.com/22cf94755b.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+    <script>
+     function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 54.6770048, lng: 25.27998230000003},
+          zoom: 12,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFXm5gB-vEEjTn67QYWXhV0Wdl1gVtypo&callback=initMap"
+    async defer></script>
+ 	<script>
+    
+</script>
+
+</body>
+</html>
